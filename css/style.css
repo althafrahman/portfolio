@@ -93,13 +93,28 @@ header{
     text-align: center;
 }
 
-header .user img{
+header .user .profile-image{
     height:17rem;
     width:17rem;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
     border:.7rem solid var(--yellow);
+}
+
+header .user .social{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+header .user .social .links{
+    height:4rem;
+    width:4rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    /* border:.7rem solid var(--yellow); */
 }
 
 header .user .name{
