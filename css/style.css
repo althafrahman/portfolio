@@ -232,6 +232,10 @@ header .navbar ul li a:hover{
     color:#fff;
 }
 
+.education{
+    min-height: 0 !important;
+}
+
 .education .box-container{
     display: flex;
     align-items: center;
@@ -261,6 +265,11 @@ header .navbar ul li a:hover{
     font-size: 2rem;
     color:#fff;
     padding-top: 1.5rem;
+}
+
+.education .box-container .box h4{
+    font-size: 1.5rem;
+    color:#eee;
 }
 
 .education .box-container .box p{
